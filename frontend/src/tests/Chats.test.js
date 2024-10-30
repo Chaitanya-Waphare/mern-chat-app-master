@@ -1,7 +1,6 @@
 // MyChats.test.js
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
-import { ChatState } from "../Context/ChatProvider";
 import MyChats from "./MyChats";
 
 const mockChats = [
